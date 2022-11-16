@@ -1,5 +1,5 @@
-- NOM : 
-- PRÉNOM :
+- NOM : Rosetta
+- PRÉNOM : Chloé
 - URL du site :
 - URL FIGMA :
 
