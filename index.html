@@ -1,54 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
         <meta name="description" content="Site Bear This in Mind réalisé dans le cadre d'un exercice pédagogique">
         <title>Bear This in Mind</title>
-        <link rel="icon" href="/"> <!--insérer logo site -->
 
         <link rel="stylesheet" href="/src/css/style.css">
     </head>
     <body>
         <header>
+        <div>
             <a href="fr/AccueilFR.html">
             <img src="public/icones/LogoViolet.webp" alt="Logo du site Bear this in mind">
-            </a> 
-        <bouton>
-            <a href="fr/menu.html">
+            </a>
+        </div>
+        <div class="header__menu menu" x-data="{open: true}">
+        <bouton @click="open= 1"> 
             <img src="public/icones/MenuViolet.webp" alt="Menu">
-            <nav class="menu">
-                <ul>
-                  <li><a class="menu__link" href="./fr/Bodhgaya.html">Bodhgaya</a></li>
-                  <li><a class="menu__link" href="./fr/Siddhartha.html">Siddhartha</a></li>
-                  <li><a class="menu__link" href="./fr/Trajectoire.html">Trajectoire</a></li>
-                  <li><a class="menu__link" href="./fr/ForrestGump.html">Forrest Gump</a></li>
-                  <li><a class="menu__link" href="./fr/PositiviteToxique.html">Positivité Toxique</a></li>
-                  <li><a class="menu__link" href="./fr/NouvellesTechnologies.html">Nouvelles Technologies</a></li>
+            <nav x-show="open==1">
+                <ul class="menu__list1">
+                  <li><a class="menu__link1" href="./fr/Bodhgaya.html">Bodhgaya</a></li>
+                  <li><a class="menu__link1" href="./fr/Siddhartha.html">Siddhartha</a></li>
+                  <li><a class="menu__link1" href="./fr/Trajectoire.html">Trajectoire</a></li>
+                  <li><a class="menu__link1" href="./fr/ForrestGump.html">Forrest Gump</a></li>
+                  <li><a class="menu__link1" href="./fr/PositiviteToxique.html">Positivité Toxique</a></li>
+                  <li><a class="menu__link1" href="./fr/NouvellesTechnologies.html">Nouvelles Technologies</a></li>
                 </ul>
-                <ul>
-                    <li><a class="menu__link" href="./fr/APropos.html">À Propos</a></li>
-                    <li><a class="menu__link" href="./fr/Contact.html">Contact</a></li>
-                    <li><a class="menu__link" href="./fr/Glossaire.html">Glossaire</a></li>
-                    <li><a class="menu__link" href="./fr/AutresProjets.html">Autres Projets</a></li>
+                <ul class="menu__list2">
+                    <li><a class="menu__link2" href="./fr/APropos.html">À Propos</a></li>
+                    <li><a class="menu__link2" href="./fr/Contact.html">Contact</a></li>
+                    <li><a class="menu__link2" href="./fr/Glossaire.html">Glossaire</a></li>
+                    <li><a class="menu__link2" href="./fr/AutresProjets.html">Autres Projets</a></li>
                 </ul>
-                <ul>
-                  <li><a class="menu__link" href="./fr/AccueilFR.html">FR</a></li>
-                  <li><a class="menu__link" href="./en/HomePage.html">EN</a></li>
+                <ul class="menu__list3">
+                  <li><a class="menu__link3" href="./fr/AccueilFR.html">FR</a></li>
+                  <li><a class="menu__link3" href="./en/HomePage.html">EN</a></li>
                 </ul>
               </nav>
             </a>
         </bouton>
+        </div>
         </header>
 
         <main>
             
              <img src="public/icones/BigLogo.webp" alt="Logo du site Bear this in mind">
 
-            <section>
-                <div>
+            <section class="carroussel">
+                <div class="carroussel__page">
                     <a href="fr/Bodhgaya.html">
                 <img src="public/illustrations/ill_Bodhgaya.webp" alt="illustration voyage">
                     </a>
@@ -59,7 +60,7 @@
                     <p>L'un des lieux les plus important de la religion bouddhiste</p>
                 </div>
                 
-                <div>
+                <div class="carroussel__page">
                     <a href="fr/Siddhartha.html">
                 <img src="public/illustrations/ill_Siddhartha.webp" alt="illustration lecture">
                     </a>
@@ -67,10 +68,10 @@
                     <a href="fr/Siddhartha.html">
                     <h3>Siddhartha</h3>
                     </a>
-                    <p>Le voyage initiatique inspirée du Bouddha</p>
+                    <p>Le voyage initiatique inspiré du Bouddha</p>
                 </div>
 
-                    <div>
+                    <div class="carroussel__page">
                         <a href="fr/Trajectoire.html">
                     <img src="public/illustrations/ill_Trajectoire.webp" alt="illustration musique">
                         </a>
@@ -81,7 +82,7 @@
                         <p>Une musique pleine de sagesse</p>
                     </div>
                     
-                    <div>
+                    <div class="carroussel__page">
                         <a href="fr/ForrestGump.html">
                     <img src="public/illustrations/ill_FG.webp" alt="illustration film"></a>
                     <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
@@ -91,22 +92,22 @@
                         <p>Un film plein de morales</p>
                     </div>
 
-                    <div>
+                    <div class="carroussel__page">
                         <a href="fr/PositiviteToxique.html">
                     <img src="public/illustrations/ill_Positivite.webp" alt="illustration annonce"></a>
                     <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
                         <a href="fr/PositiviteToxique.html">
-                        <h3>Positivite toxique</h3>
+                        <h3>Positivité toxique</h3>
                         </a>
                         <p>Le paradoxe du développement personel</p>
                     </div>
 
-                    <div>  
+                    <div class="carroussel__page">  
                         <a href="fr/NouvellesTechnologies.html">
                     <img src="public/illustrations/ill_NT.webp" alt="illustration robot">
                         </a>
-                        <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T" target="_blank">Dani Grapevine</a> from <a href="https://icons8.com/illustrations" target="_blank">Ouch!</a>
-                        <a href="fr/NouvellesTechnologies.html">
+                    <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T" target="_blank">Dani Grapevine</a> from <a href="https://icons8.com/illustrations" target="_blank">Ouch!</a>
+                        <a href="../fr/NouvellesTechnologies.html">
                         <h3>Les nouvelles technologies</h3>
                         </a>
                         <p>Une solution pour atteindre l’égalité ?</p>
@@ -115,26 +116,26 @@
         
         </main>
 
-        <footer>
-        <div>
-            <a href="fr/APropos.html">
+        <footer class="footer">
+        <div class="footer__part1">
+            <a href="../fr/APropos.html">
                 <p>À propos</p>
             </a>
-            <a href="fr/Contact.html">
+            <a href="../fr/Contact.html">
                 <p>Contact</p>
             </a>
-            <a href="fr/Glossaire.html">
+            <a href="../fr/Glossaire.html">
                 <p>Glossaire</p>
             </a>
-            <a href="fr/AutresProjets.html">
+            <a href="../fr/AutresProjets.html">
                 <p>Autres Projets</p>
             </a>
-            </div>
-            <div>
-                <p>Chloé ROSETTA MMI 1 C1</p>
-                <p>Projet réalisé dans le cadre d un exercice pédagogique au département <a href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=0CAMQw7AJahcKEwjYrI7MvrD7AhUAAAAAHQAAAAAQAw&url=http%3A%2F%2Fmmimontbeliard.com%2F&psig=AOvVaw3MQthNk2oPGLkEewuLg927&ust=1668612095689961">MMI de Montbéliard</a></p>
-                <img src="./public/icones/logoMMInoir.webp">
-            </div>
+        </div>
+        <div class="footer__part2">
+            <p>Chloé ROSETTA MMI 1 C1</p>
+            <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=0CAMQw7AJahcKEwjYrI7MvrD7AhUAAAAAHQAAAAAQAw&url=http%3A%2F%2Fmmimontbeliard.com%2F&psig=AOvVaw3MQthNk2oPGLkEewuLg927&ust=1668612095689961">MMI de Montbéliard</a></p>
+            <img src="../public/icones/logoMMInoir.webp">
+        </div>
         </footer>
     </body>
 </html>
