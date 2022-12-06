@@ -1,0 +1,23 @@
+:root {
+/* Color styles */
+--white: #FAFAFA;
+--lighter: #C595ED;
+--main: #6C11A9;
+--darker: #3F1B63;
+--black: #1C1C1C;
+
+/* Text-size styles */
+/* base size: body-1-réel (14px) */
+--h1: 2.14rem;
+--h2: 1.79rem;
+--h3: 1.21rem;
+--h4: 1.07rem;
+--body-1-réel: 1rem;
+--button-1: 1.43rem;
+--button-2: 1.07rem;
+--little-button: 0.93rem;
+--small--logo-1: 2.5rem;
+--big--logo-1: 7.14rem;
+--big--logo-2: 2.14rem;
+--small--logo-2: 0.71rem;
+}

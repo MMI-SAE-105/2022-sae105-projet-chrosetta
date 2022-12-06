@@ -1,1 +1,14 @@
-@import "components/menu.css"
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import "base/main.css";
+@import "base/media.css";
+
+@import "components/menu.css";
+
+@import "layout/footer.css";
+@import "layout/header.css";
+
+@import "utils/variables.css";
+
+@import "vendors/normalize.css";
