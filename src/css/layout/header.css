@@ -1,0 +1,21 @@
+.header {
+    background-color: var(#6C11A9);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: auto;
+    padding: 20;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logoimg {
+width: 111;
+height: 40;
+}
+
+.header__menu {
+width: 40;
+height: 40;
+}
