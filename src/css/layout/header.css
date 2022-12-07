@@ -3,17 +3,19 @@
     left: 0px;
     width: 100%;
     z-index: auto;
-    padding: 20px;
+    padding: 24px;
     display: flex;
     justify-content: space-between;
 }
 
 .header__logoimg {
+position: absolute;
 width: 111px;
 height: 40px;
 }
 
 .menu__img {
+margin-left: 311px;
 width: 40px;
 height: 40px;
 }

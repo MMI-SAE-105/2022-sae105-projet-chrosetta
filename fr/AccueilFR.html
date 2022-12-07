@@ -16,8 +16,8 @@
             <img class="header__logoimg" src="../public/icones/LogoViolet.webp" alt="Logo du site Bear this in mind">
             </a> 
         <bouton> 
-            <nav class="header__menu menu">
-                <img class="menu__img" src="../public/icones/MenuViolet.webp" alt="Menu">
+            <img class="menu__img" src="../public/icones/MenuViolet.webp" alt="Menu" @click="open=1">
+            <nav class="header__menu menu" x-show="open=1">
                 <ul class="menu__list1">
                   <li><a class="menu__link1" href="./fr/Bodhgaya.html">Bodhgaya</a></li>
                   <li><a class="menu__link1" href="./fr/Siddhartha.html">Siddhartha</a></li>
@@ -49,7 +49,7 @@
             <section class="carroussel">
                 <div class="carroussel__page">
                     <a href="../fr/Bodhgaya.html">
-                <img src="../public/illustrations/ill_Bodhgaya.webp" alt="illustration voyage">
+                <img class="carroussel__pageimg" src="../public/illustrations/ill_Bodhgaya.webp" alt="illustration voyage">
                     </a>
                 <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
                     <a href="../fr/Bodhgaya.html">
@@ -60,7 +60,7 @@
                 
                 <div class="carroussel__page">
                     <a href="../fr/Siddhartha.html">
-                <img src="../public/illustrations/ill_Siddhartha.webp" alt="illustration lecture">
+                <img class="carroussel__pageimg" src="../public/illustrations/ill_Siddhartha.webp" alt="illustration lecture">
                     </a>
                 <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
                     <a href="../fr/Siddhartha.html">
@@ -71,7 +71,7 @@
 
                     <div class="carroussel__page">
                         <a href="../fr/Trajectoire.html">
-                    <img src="../public/illustrations/ill_Trajectoire.webp" alt="illustration musique">
+                    <img class="carroussel__pageimg" src="../public/illustrations/ill_Trajectoire.webp" alt="illustration musique">
                         </a>
                     <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
                         <a href="../fr/Trajectoire.html">
@@ -82,7 +82,7 @@
                     
                     <div class="carroussel__page">
                         <a href="../fr/ForrestGump.html">
-                    <img src="../public/illustrations/ill_FG.webp" alt="illustration film"></a>
+                    <img class="carroussel__pageimg" src="../public/illustrations/ill_FG.webp" alt="illustration film"></a>
                     <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
                         <a href="../ForrestGump.html">
                         <h3>Forrest Gump</h3>
@@ -92,7 +92,7 @@
 
                     <div class="carroussel__page">
                         <a href="../fr/PositiviteToxique.html">
-                    <img src="../public/illustrations/ill_Positivite.webp" alt="illustration annonce"></a>
+                    <img class="carroussel__pageimg" src="../public/illustrations/ill_Positivite.webp" alt="illustration annonce"></a>
                     <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
                         <a href="../fr/PositiviteToxique.html">
                         <h3>Positivité toxique</h3>
@@ -102,7 +102,7 @@
 
                     <div class="carroussel__page">  
                         <a href="../fr/NouvellesTechnologies.html">
-                    <img src="../public/illustrations/ill_NT.webp" alt="illustration robot">
+                    <img class="carroussel__pageimg" src="../public/illustrations/ill_NT.webp" alt="illustration robot">
                         </a>
                     <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T" target="_blank">Dani Grapevine</a> from <a href="https://icons8.com/illustrations" target="_blank">Ouch!</a>
                         <a href="../fr/NouvellesTechnologies.html">
