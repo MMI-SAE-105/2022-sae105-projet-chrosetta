@@ -10,35 +10,39 @@
         <link rel="stylesheet" href="../src/css/style.css">
     </head>
     <body>
+        <div class="header">
         <header class="header">
-        <div class="header__logo">
-            <a href="../AccueilFR.html">
-            <img class="header__logoimg" src="../public/icones/LogoViolet.webp" alt="Logo du site Bear this in mind">
-            </a> 
-        <bouton> 
-            <img class="menu__img" src="../public/icones/MenuViolet.webp" alt="Menu" @click="open=1">
-            <nav class="header__menu menu" x-show="open=1">
-                <ul class="menu__list1">
-                  <li><a class="menu__link1" href="./fr/Bodhgaya.html">Bodhgaya</a></li>
-                  <li><a class="menu__link1" href="./fr/Siddhartha.html">Siddhartha</a></li>
-                  <li><a class="menu__link1" href="./fr/Trajectoire.html">Trajectoire</a></li>
-                  <li><a class="menu__link1" href="./fr/ForrestGump.html">Forrest Gump</a></li>
-                  <li><a class="menu__link1" href="./fr/PositiviteToxique.html">Positivité Toxique</a></li>
-                  <li><a class="menu__link1" href="./fr/NouvellesTechnologies.html">Nouvelles Technologies</a></li>
-                </ul>
-                <ul class="menu__list2">
-                    <li><a class="menu__link2" href="./fr/APropos.html">À Propos</a></li>
-                    <li><a class="menu__link2" href="./fr/Contact.html">Contact</a></li>
-                    <li><a class="menu__link2" href="./fr/Glossaire.html">Glossaire</a></li>
-                    <li><a class="menu__link2" href="./fr/AutresProjets.html">Autres Projets</a></li>
-                </ul>
-                <ul class="menu__list3">
-                  <li><a class="menu__link3" href="./fr/AccueilFR.html">FR</a></li>
-                  <li><a class="menu__link3" href="./en/HomePage.html">EN</a></li>
-                </ul>
-              </nav>
-            </a>
-        </bouton>
+            <div class="header__logo">
+                <a href="../AccueilFR.html">
+                <img class="header__logoimg" src="../public/icones/LogoViolet.webp" alt="Logo du site Bear this in mind">
+                </a>
+            </div>
+        
+            <div class="header__menu menu"x-data="{open: false}">
+                <boutton type="submit" @click="open= 1">
+                    <img class="menu__img" src="../public/icones/MenuViolet.webp" alt="Menu">
+                </bouton>
+                    <nav x-show="open==1">
+                        <ul class="menu__list1">
+                        <li><a class="menu__link1" href="./fr/Bodhgaya.html">Bodhgaya</a></li>
+                        <li><a class="menu__link1" href="./fr/Siddhartha.html">Siddhartha</a></li>
+                        <li><a class="menu__link1" href="./fr/Trajectoire.html">Trajectoire</a></li>
+                        <li><a class="menu__link1" href="./fr/ForrestGump.html">Forrest Gump</a></li>
+                        <li><a class="menu__link1" href="./fr/PositiviteToxique.html">Positivité Toxique</a></li>
+                        <li><a class="menu__link1" href="./fr/NouvellesTechnologies.html">Nouvelles Technologies</a></li>
+                        </ul>
+                        <ul class="menu__list2">
+                            <li><a class="menu__link2" href="./fr/APropos.html">À Propos</a></li>
+                            <li><a class="menu__link2" href="./fr/Contact.html">Contact</a></li>
+                            <li><a class="menu__link2" href="./fr/Glossaire.html">Glossaire</a></li>
+                            <li><a class="menu__link2" href="./fr/AutresProjets.html">Autres Projets</a></li>
+                        </ul>
+                        <ul class="menu__list3">
+                        <li><a class="menu__link3" href="./fr/AccueilFR.html">FR</a></li>
+                        <li><a class="menu__link3" href="./en/HomePage.html">EN</a></li>
+                        </ul>
+                    </nav>
+            </div>
         </div>
         </header>
 
