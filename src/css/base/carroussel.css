@@ -1,5 +1,9 @@
-.carroussel__pageimg,
-.carroussel__page {
+
+.carroussel__pageimg {
     width: 285px;
     height: 285px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
+
