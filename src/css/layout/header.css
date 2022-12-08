@@ -3,9 +3,10 @@
     left: 0%;
     right: 0%;
     width: 100%;
+    margin: auto;
     z-index: auto;
     display: flex;
-    gap: 50%;
+    gap: 80%;
 }
 
 .header__logoimg {
@@ -13,9 +14,13 @@ width: 6.9rem;
 height: 2.5rem;
 }
 
-.menu__img {
-margin-right: auto;
-margin-left: auto;
-width: 2.5rem;
-height: 2.5rem;
+
+.menu__btn {
+    visibility: visible;
+    position: relative;
+    z-index: 3;
+    margin-right: auto;
+    margin-left: auto;
+    width: 2.5rem;
+    height: 2.5rem;
 }

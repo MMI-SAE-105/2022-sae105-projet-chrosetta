@@ -1,9 +1,15 @@
-
+.carroussel {
+    top: 238px;
+}
 .carroussel__pageimg {
     width: 285px;
     height: 285px;
     display: block;
     margin-left: auto;
     margin-right: auto
+}
+
+.carroussel__page {
+    display: inline;
 }
 

@@ -17,8 +17,12 @@
             </a>
         </div>
         <div class="header__menu menu" x-data="{open: false}">
-        <img src="public/icones/MenuViolet.webp" alt="Menu">
-        <bouton @click="open= 1"> 
+            <a href="/">
+                <img class="menu__img" src="public/icones/MenuViolet.webp" alt="Menu">
+            </a>
+            <bouton @click="open= 1">
+                <span class="menu__btn"></span>
+            </bouton>
             <nav x-show="open==1">
                 <ul class="menu__list1">
                   <li><a class="menu__link1" href="./fr/Bodhgaya.html">Bodhgaya</a></li>
