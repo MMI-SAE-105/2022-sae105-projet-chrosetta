@@ -1,33 +1,55 @@
 h1{
-
+    font-family: var(--font-bold);
+    font-size: var(--h1);
+    letter-spacing: 5%;
+    line-height: auto;
 }
 
 h2{
-
+    font-family: var(--font-bold);
+    font-size: var(--h2);
+    letter-spacing: 10%;
+    line-height: auto;
 }
 
 h3 {
-
+    font-family: var(--font-bold);
+    font-size: var(--h3);
+    letter-spacing: 5%;
+    line-height: auto;
 }
 
 h4{
-
+    font-family: var(--font-bold);
+    font-size: var(--h4);
+    letter-spacing: 10%;
+    line-height: auto;
 }
 
 p {
     font-family: var(--font-basic);
     font-size: var(--body);
+    letter-spacing: 0%;
+    line-height: auto;
 }
 
 button1 {
-
+    font-family: var(--font-bold);
+    font-size: var(--button-1);
+    letter-spacing: 10%;
+    line-height: auto;
 }
 
 button2 {
-
+    font-family: var(--font-bold);
+    font-size: var(--button-2);
+    letter-spacing: 10%;
+    line-height: auto;
 }
 
 littlebutton{
     font-family: var(--font-basic);
     font-size: var(--little-button);
+    letter-spacing: 10%;
+    line-height: auto;
 }
