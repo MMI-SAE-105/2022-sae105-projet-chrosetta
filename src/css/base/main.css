@@ -1,7 +1,33 @@
-img.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 203px;
-    height: 117px;
+h1{
+
+}
+
+h2{
+
+}
+
+h3 {
+
+}
+
+h4{
+
+}
+
+p {
+    font-family: var(--font-basic);
+    font-size: var(--body);
+}
+
+button1 {
+
+}
+
+button2 {
+
+}
+
+littlebutton{
+    font-family: var(--font-basic);
+    font-size: var(--little-button);
 }
