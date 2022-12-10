@@ -7,6 +7,8 @@
     z-index: auto;
     display: flex;
     gap: 80%;
+        border-bottom: 1px solid var(--main);
+        border-width: 80%;
 }
 
 .header__logoimg {
