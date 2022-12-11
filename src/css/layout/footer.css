@@ -4,6 +4,10 @@
     color: var(--white);
 }
 
+.footer__part1 {
+    display: inline-flex;
+    gap: 0.5rem;
+}
 
 .footer__link1{
     display: inline-block;
