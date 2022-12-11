@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="../src/css/style.css">
     </head>
     <body>
-        <div class="header">
+        <section class="header">
         <header class="header">
             <div class="header__logo">
                 <a href="../AccueilFR.html">
@@ -19,19 +19,19 @@
             </div>
         
             <div>
-                <section class="header__menu menu"x-data="{open: false}">
-                    
-                    <button class="menu__btn" @click="open= ! open">
-                        <img class="menu__btn" src="../public/icones/MenuViolet.webp" alt="Menu">
-                    </button>
-                        <nav class="menu__hamburger" x-show="open">
-                            <ul class="menu__list1">
-                            <li><a class="menu__link1" href="./fr/Bodhgaya.html">Bodhgaya</a></li>
-                            <li><a class="menu__link1" href="./fr/Siddhartha.html">Siddhartha</a></li>
-                            <li><a class="menu__link1" href="./fr/Trajectoire.html">Trajectoire</a></li>
-                            <li><a class="menu__link1" href="./fr/ForrestGump.html">Forrest Gump</a></li>
-                            <li><a class="menu__link1" href="./fr/PositiviteToxique.html">Positivité Toxique</a></li>
-                            <li><a class="menu__link1" href="./fr/NouvellesTechnologies.html">Nouvelles Technologies</a></li>
+                    <button class="header__menu menu" @click="menuIsOpen=!menuIsOpen">
+                        <img src="../public/icones/MenuViolet.webp">
+                        <span class="menu__btn"></span>
+                      </button>
+
+                      <nav class="headermenu menu" x-show="menuIsOpen">
+                        <ul class="menulist">
+                            <li><a class="menu__link1" href="../fr/Bodhgaya.html">Bodhgaya</a></li>
+                            <li><a class="menu__link1" href="../fr/Siddhartha.html">Siddhartha</a></li>
+                            <li><a class="menu__link1" href="../fr/Trajectoire.html">Trajectoire</a></li>
+                            <li><a class="menu__link1" href="../fr/ForrestGump.html">Forrest Gump</a></li>
+                            <li><a class="menu__link1" href="../fr/PositiviteToxique.html">Positivité Toxique</a></li>
+                            <li><a class="menu__link1" href="../fr/NouvellesTechnologies.html">Nouvelles Technologies</a></li>
                             </ul>
                             <ul class="menu__list2">
                                 <li><a class="menu__link2" href="./fr/APropos.html">À Propos</a></li>
@@ -44,9 +44,8 @@
                             <li><a class="menu__link3" href="./en/HomePage.html">EN</a></li>
                             </ul>
                         </nav>
-                </section>
             </div>
-        </div>
+        </section>
         </header>
 
         <main>
