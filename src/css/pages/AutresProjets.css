@@ -1,6 +1,15 @@
-.initial-AP{
+.contact {
+    display: inline-flex;
+}
+
+.contact__initial{
     width: 2.5rem;
     height: 2.5rem;
-    border-radius: 20%;
-    background-color: yellow;
+    border-radius: 100%;
+    background-color: var(--yellow);
+    text-align: center;
+}
+
+.contact__nom {
+
 }
