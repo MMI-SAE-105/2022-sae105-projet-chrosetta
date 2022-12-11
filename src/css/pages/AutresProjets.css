@@ -1,5 +1,9 @@
+.projets{
+    display: block;
+}
+
 .contact {
-    display: inline-flex;
+    display: flex;
 }
 
 .contact__initial{

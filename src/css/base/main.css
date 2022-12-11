@@ -53,3 +53,8 @@ littlebutton{
     letter-spacing: 10%;
     line-height: auto;
 }
+
+hr {
+    width: 11.875rem;
+    height: 0.093rem;
+}
