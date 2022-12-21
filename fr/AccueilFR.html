@@ -19,12 +19,11 @@
             </div>
         
             <div>
-                    <button class="header__menu menu" @click="menuIsOpen=!menuIsOpen">
-                        <img src="/public/icones/MenuViolet.webp">
-                        <span class="menu__btn"></span>
-                      </button>
+                    <div class="nav-toggle">
+                        <div class="nav-toggle-bar"></div>
+                    </div>
 
-                      <nav class="headermenu menu" x-show="menuIsOpen">
+                    <nav class="headermenu menu" x-show="menuIsOpen">
                         <ul class="menulist">
                             <li><a class="menu__link1" href="/fr/Bodhgaya.html">Bodhgaya</a></li>
                             <li><a class="menu__link1" href="/fr/Siddhartha.html">Siddhartha</a></li>

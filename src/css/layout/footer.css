@@ -11,4 +11,9 @@
 
 .footer__link1{
     display: inline-block;
+    color: var(--white);
+    
+}
+.footer__link1:hover{
+    color: var(--yellow);
 }
