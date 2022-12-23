@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1{
     font-family: var(--font-bold);
     font-size: var(--h1);
