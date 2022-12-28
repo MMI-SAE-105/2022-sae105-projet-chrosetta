@@ -1,9 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-@import "base/main.css";
-@import "base/media.css";
-@import "base/carroussel.css";
+
+@import "vendors/normalize.css";
 
 @import "components/menu.css";
 
@@ -12,7 +11,9 @@
 
 @import "utils/variables.css";
 
-@import "vendors/normalize.css";
+@import "base/main.css";
+@import "base/media.css";
+@import "base/carroussel.css";
 
 @import "pages/AutresProjets.css";
 @import "pages/articles.css"
