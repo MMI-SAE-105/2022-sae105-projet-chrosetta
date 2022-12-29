@@ -64,3 +64,11 @@ hr {
     width: 11.875rem;
     height: 0.093rem;
 }
+
+h3:hover{
+    color: var(--darker);
+}
+
+h3:active{
+    color: var(--yellow);
+}

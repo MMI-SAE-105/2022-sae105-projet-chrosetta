@@ -16,6 +16,15 @@
     display: inline;
 }
 
+.carroussel__title,
 .carroussel__text{
     text-align: center;
+}
+
+.carroussel__title{
+    color: var(--main);
+}
+
+.carroussel__text{
+    color: var(--darker);
 }
