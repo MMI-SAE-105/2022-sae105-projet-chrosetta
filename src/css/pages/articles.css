@@ -1,6 +1,37 @@
-.img-couverture{
-    margin-top: 0;
+.article{
+    background-color: var(--main);
+    
+}
+
+.article__landing{
+    display: block;
+}
+
+.landing__img-couverture{
+    position: relative;
+    margin-top: -75px;
     width: 100%;
     inset: 0;
-    z-index: -1;
+    z-index: 0;
+}
+
+.landing__h1{
+    position: relative;
+    bottom: 7rem;
+    text-align: center;
+    background-color: var(--main);
+    color: var(--white);
+    padding-top: 82px;
+    right: 0;
+    left: 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+.landing__chevrondown{
+    position: relative;
+    margin-top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
 }

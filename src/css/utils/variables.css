@@ -8,11 +8,12 @@
 --yellow: #FECE2F;
 
 --font-basic: 'Gentium Book Basic','Regular 400';
---font-bold: 'Gentium Book Basic','Bold 700'
+--font-bold: 'Gentium Book Basic','Bold 700';
 
 
 /* Text-size styles */
 /* base size: body-1-réel (14px) */
+
 --h1: 2.14rem;
 --h2: 1.79rem;
 --h3: 1.21rem;

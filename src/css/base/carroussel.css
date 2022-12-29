@@ -1,4 +1,5 @@
 .carroussel {
+    margin-bottom: 30px;
     top: 238px;
     display: flex;
     overflow-x: scroll ;

@@ -3,20 +3,24 @@
     left: 0;
     right: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     display: absolute;
     gap: 80%;
+    height: 75px;
 }
 
 .header__logoimg {
+    position: absolute;
     width: 6.9rem;
     height: 2.5rem;
     margin-top: 30px;
     margin-left: 15px;
+    z-index: 2;
 }
 
 #header_logoacc{
     opacity: 0;
+    visibility: hidden;
 }
 
 
