@@ -61,8 +61,11 @@ littlebutton{
 }
 
 hr {
-    width: 11.875rem;
-    height: 0.093rem;
+    width: 40%;
+    justify-content: center;
+    height: 0.5px;
+    background-color: var(--main);
+    border: 0;
 }
 
 h3:hover{

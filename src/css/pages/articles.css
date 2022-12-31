@@ -1,6 +1,5 @@
 .article{
     background-color: var(--main);
-    
 }
 
 .article__landing{
@@ -31,7 +30,59 @@
 
 .landing__chevrondown{
     position: relative;
-    margin-top: -30px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.article h2,.article h3,.article h4,.article p {
+    color: var(--white);
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.img{
+    width: 335px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.frise {
+    background-color: var(--darker);
+    padding-top: 10px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 3rem;
+}
+
+.frise__img{
+    width: 153px;
+}
+
+.frise__flechedroite{
+    width: 24px;
+}
+
+.frise__part{
+    columns: 2;
+    
+}
+
+.article h3{
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.article__suivant{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.suivant__text{
+    text-align: center;
+}
+
+.suivant__bouton{
+
 }

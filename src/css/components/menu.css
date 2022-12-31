@@ -13,16 +13,7 @@
     z-index: 2;
 }
 
-.nav-toggle-bar {
-    content: "";
-    background-color: var(--main);
-    width: 100%;
-    height: 2px;
-    position: absolute;
-    right: 0;
-    transition: all .4s ease-in-out;
-}
-
+.nav-toggle-bar,
 .nav-toggle-bar::before,
 .nav-toggle-bar::after{
     content: "";
@@ -51,6 +42,50 @@
 .menu-open .nav-toggle-bar::after{
     transform: rotate(90deg);
     background-color: var(--white);
+    top: 0;
+}
+
+/* icone menu article*/
+
+.nav-toggleart {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.nav-toggle-barart,
+.nav-toggle-barart::before,
+.nav-toggle-barart::after{
+    content: "";
+    background-color: var(--white);
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    transition: all .4s ease-in-out;
+}
+
+.nav-toggle-barart::before{
+    top: -10px;
+}
+
+.nav-toggle-barart::after{
+    top: 10px;
+}
+
+.menu-open .nav-toggle-barart{
+    transform: rotate(135deg);
+}
+
+.menu-open .nav-toggle-barart::before,
+.menu-open .nav-toggle-barart::after{
+    transform: rotate(90deg);
     top: 0;
 }
 
