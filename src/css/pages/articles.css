@@ -1,3 +1,4 @@
+/* Général*/
 .article{
     background-color: var(--main);
 }
@@ -29,8 +30,6 @@
     line-height: 250%;
 }
 
-
-
 .landing__chevrondown{
     position: absolute;
     bottom: 30px;
@@ -51,30 +50,9 @@
     transform: translateX(-50%);
 }
 
-.frise {
-    background-color: var(--darker);
-    padding-top: 10px;
-    display: flex;
-    overflow-x: scroll;
-    gap: 3rem;
-}
-
-.frise__img{
-    width: 153px;
-}
-
-.frise__flechedroite{
-    width: 24px;
-}
-
-.frise__part{
-    columns: 2;
-    
-}
-
 .article h3{
-    padding-top: 120px;
-    padding-bottom: 20px;
+    margin-top: 120px;
+    margin-bottom: 20px;
 }
 
 .article__suivant{
@@ -101,3 +79,55 @@
 .suivant__bouton littlebutton{
     text-decoration: underline;
 }
+
+/* Bodhgaya*/
+.frise {
+    background-color: var(--darker);
+    padding-top: 10px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 3rem;
+}
+
+.frise__img{
+    width: 153px;
+}
+
+.frise__flechedroite{
+    width: 24px;
+}
+
+.frise__part{
+    columns: 2;
+    
+}
+
+/* Siddartha */
+.article__extrait{
+    background-color: var(--darker);
+    border-radius: 20px;
+    padding: 40px 0;
+}
+
+.article__extrait h3{
+    margin: inherit;
+    margin-left: 22px;
+}
+
+.article__extrait a {
+    color: var(--yellow);
+}
+
+.article__textavextrait{
+    margin-bottom: 120px;
+}
+/* Trajectoire */
+
+
+/* Forrest Gump */
+
+
+/* Positivité Toxique */
+
+
+/* Nouvelles technologies */
