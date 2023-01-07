@@ -19,9 +19,8 @@
     z-index: 2;
 }
 
-#header_logoacc{
-    opacity: 0;
-    visibility: hidden;
+#header__logoacc{
+    display: none;
 }
 
 
