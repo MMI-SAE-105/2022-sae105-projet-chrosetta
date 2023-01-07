@@ -3,7 +3,6 @@
     padding: 10px 22px 80px 22px;
 }
 
-
 .autres h1{
     position: relative;
     text-align: center;
@@ -37,6 +36,10 @@
     padding-bottom: 10%;
 }
 
+.autres h4{
+    color: var(--main);
+    padding-top: 10%;
+}
 .autres p{
     color: var(--main);
     padding-bottom: 20%;
@@ -55,6 +58,11 @@
     top: 1rem;
     left: 4%;
     width: 2rem;
+}
+
+/* Glossaire*/
+.autres__vocabulaire p{
+    padding: inherit;
 }
 
 .projets{
