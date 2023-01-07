@@ -1,3 +1,62 @@
+.autres{
+    background-color: var(--white);
+    padding: 10px 22px 80px 22px;
+}
+
+
+.autres h1{
+    position: relative;
+    text-align: center;
+    color: var(--main);
+    margin: 10% auto;
+}
+
+.autres__separateur1,.autres__separateur2{
+    display: block;
+    height: 1px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--main);
+}
+
+.autres__separateur1{
+    margin-top: 10%;
+}
+
+.autres__separateur2{
+    margin-bottom: 10%;
+}
+
+.autres h2{
+    position: relative;
+    text-align: center;
+    color: var(--main);
+    text-transform: uppercase;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.autres p{
+    color: var(--main);
+    padding-bottom: 20%;
+}
+
+.autres__ill{
+    display: block;
+    width: 285px;
+    height: 285px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.autres__retour{
+    position: relative;
+    top: 1rem;
+    left: 4%;
+    width: 2rem;
+}
+
 .projets{
     display: block;
 }
@@ -17,3 +76,5 @@
 .contact__nom {
 
 }
+
+
