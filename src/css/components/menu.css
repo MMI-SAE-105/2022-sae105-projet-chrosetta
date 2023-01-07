@@ -104,8 +104,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateX(100vw);
-    transition: all 2s;
+    transition: all 0.5s ease-in;
     z-index: 1;
     opacity: 0;
     text-align: end;
