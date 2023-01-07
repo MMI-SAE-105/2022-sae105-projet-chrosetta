@@ -50,6 +50,15 @@
     transform: translateX(-50%);
 }
 
+figcaption{
+    color: var(--white);
+    text-align: center;
+    font-family: var(--font-basic);
+    font-size: var(--body);
+    font-style: italic;
+    font-variant: small-caps;
+}
+
 .article h3{
     margin-top: 120px;
     margin-bottom: 20px;
@@ -86,6 +95,14 @@
 }
 
 /* Bodhgaya*/
+.article__frise {
+    background-color: var(--darker);
+    padding: 1%;
+    margin-top: 120px;
+}
+.article__frise h3{
+    margin-top: 20px;
+}
 .frise {
     background-color: var(--darker);
     padding-top: 10px;
@@ -130,7 +147,13 @@
 .article__link{
     color: var(--yellow);
 }
-
+video{
+    width: 335px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 35px;
+}
 
 /* Forrest Gump */
 .article__carrousselfilm{
