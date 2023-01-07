@@ -17,8 +17,8 @@
 
 .landing__h1{
     position: relative;
-    bottom: 7rem;
     text-align: center;
+    bottom: 7rem;
     background-color: var(--main);
     color: var(--white);
     padding: 20% 10%;
@@ -122,6 +122,9 @@
     margin-bottom: 120px;
 }
 /* Trajectoire */
+.article__link{
+    color: var(--yellow);
+}
 
 
 /* Forrest Gump */
