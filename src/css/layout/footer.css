@@ -5,9 +5,11 @@
     border-radius: 15px 15px 0 0; 
     color: var(--white);
     padding: 16px;
+    margin-top: -16px;
     bottom: 0;
     right: 0;
     left: 0;
+    z-index: 1;
 }
 
 .footer__part1{
@@ -47,8 +49,8 @@
     align-items: center;
 }
 
-.footer__part3 p{
-    font-size: 0.825rem ;
+.footer__part2 p,.footer__part3 p{
+    font-size: 0.7rem ;
 }
 
 .footer__link2{

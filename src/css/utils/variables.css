@@ -7,19 +7,19 @@
 --black: #1C1C1C;
 --yellow: #FECE2F;
 
---font-basic: 'Gentium Book Basic','Regular 400';
---font-bold: 'Gentium Book Basic','Bold 700';
+--font-basic:'Gentium Basic', sans-serif;
+--font-bold:'Gentium Basic','Gentium Basic 700';
 
 
 /* Text-size styles */
 /* base size: body-1-réel (14px) */
 
---h1: 2.14rem;
---h2: 1.79rem;
---h3: 1.21rem;
---h4: 1.07rem;
+--h1: 2rem;
+--h2: 1.6rem;
+--h3: 1.1rem;
+--h4: 0.9rem;
 --body: 1rem;
---button-1: 1.43rem;
---button-2: 1.07rem;
---little-button: 0.93rem;
+--button-1: 1.23rem;
+--button-2: 0.8rem;
+--little-button: 0.7rem;
 }
