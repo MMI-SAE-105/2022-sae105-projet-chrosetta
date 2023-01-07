@@ -55,6 +55,11 @@
     margin-bottom: 20px;
 }
 
+.article h4{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
 .article__suivant{
     display: flex;
     flex-direction: column;
@@ -128,7 +133,12 @@
 
 
 /* Forrest Gump */
-
+.article__carrousselfilm{
+    display: flex;
+    overflow-x: scroll;
+    padding-right: 22px;
+    padding-left: 22px;
+}
 
 /* Positivité Toxique */
 
