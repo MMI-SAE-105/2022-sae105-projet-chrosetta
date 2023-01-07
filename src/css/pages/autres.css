@@ -103,3 +103,14 @@
     width: 100%;
 }
 
+/*Contact*/
+.autres__form{
+    background-color: var(--main);
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.form__nom{
+    display: flex;
+    flex-direction: row;
+}
