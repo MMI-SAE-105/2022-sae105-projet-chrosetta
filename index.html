@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Site Bear This in Mind réalisé dans le cadre d'un exercice pédagogique">
-        <title>Bear This in Mind - index</title>
+        <title>Bear This in Mind</title>
         <link rel="icon" href="/">
         <link rel="stylesheet" href="/src/css/style.css">
     </head>
     <body>
         <header class="header">
-            <div class="header__logo">
+            <div id="header__logoacc">
                 <a href="/fr/AccueilFR.html">
                 <img class="header__logoimg" src="/public/icones/LogoViolet.webp" alt="Logo du site Bear this in mind">
                 </a>
             </div>
         
-            <div>
+            
                     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
                         <div class="nav-toggle-bar"></div>
                     </div>
@@ -33,96 +33,97 @@
                         
                                 <li><h4><a class="menu__link2" href="/fr/APropos.html">À Propos</a></h4></li>
                                 <li><h4><a class="menu__link2" href="/fr/Contact.html">Contact</a></h4></li>
-                                <li><h4><a class="menu__link2" href="/fr/Contact.html">Glossaire</a></h4></li>
+                                <li><h4><a class="menu__link2" href="/fr/Glossaire.html">Glossaire</a></h4></li>
                                 <li><h4><a class="menu__link2" href="/fr/AutresProjets.html">Autres Projets</a></h4></li>
 
                             <li><h4><a class="menu__link3" href="../fr/AccueilFR.html">FR</a></h4></li>
                             <li><h4><a class="menu__link3" href="../en/HomePage.html">EN</a></h4></li>
                         </ul>
                     </nav>
-            </div>
-        <hr>
+            
         </header>
 
-        <main>
+        <main class="autres">
             
             <img class="logo" src="/public/icones/BigLogo.webp" alt="Logo du site Bear this in mind">
 
-            <section class="carroussel">
-                    <div class="carroussel__page">
+            <ul class="carroussel">
+                    <li class="carroussel__page">
                         <a href="/fr/Bodhgaya.html">
                             <img class="carroussel__pageimg" src="/public/illustrations/ill_Bodhgaya.webp" alt="illustration voyage">
-                            <h3>Bodhgaya</h3>
+                            <h3 class="carroussel__title">Bodhgaya</h3>
                         </a>
-                        <p>L'un des lieux les plus important de la religion bouddhiste</p>
-                    </div>
+                        <p class="carroussel__text">L'un des lieux les plus important de la religion bouddhiste</p>
+                    </li>
                 
-                    <div class="carroussel__page">
+                    <li class="carroussel__page">
                         <a href="/fr/Siddhartha.html">
                             <img class="carroussel__pageimg" src="/public/illustrations/ill_Siddhartha.webp" alt="illustration lecture">
-                            <h3>Siddhartha</h3>
+                            <h3 class="carroussel__title">Siddhartha</h3>
                         </a>
-                        <p>Le voyage initiatique inspiré du Bouddha</p>
-                    </div>
+                        <p class="carroussel__text">Le voyage initiatique inspiré du Bouddha</p>
+                    </li>
 
-                    <div class="carroussel__page">
+                    <li class="carroussel__page">
                         <a href="/fr/Trajectoire.html">
                             <img class="carroussel__pageimg" src="/public/illustrations/ill_Trajectoire.webp" alt="illustration musique">
-                            <h3>Trajectoire</h3>
+                            <h3 class="carroussel__title">Trajectoire</h3>
                         </a>
-                        <p>Une musique pleine de sagesse</p>
-                    </div>
+                        <p class="carroussel__text">Une musique pleine de sagesse</p>
+                    </li>
                     
-                    <div class="carroussel__page">
+                    <li class="carroussel__page">
                         <a href="/fr/ForrestGump.html">
                             <img class="carroussel__pageimg" src="/public/illustrations/ill_FG.webp" alt="illustration film">
-                            <h3>Forrest Gump</h3>
+                            <h3 class="carroussel__title">Forrest Gump</h3>
                         </a>
-                        <p>Un film plein de morales</p>
-                    </div>
+                        <p class="carroussel__text">Un film plein de morales</p>
+                    </li>
 
-                    <div class="carroussel__page">
+                    <li class="carroussel__page">
                         <a href="/fr/PositiviteToxique.html">
                             <img class="carroussel__pageimg" src="/public/illustrations/ill_Positivite.webp" alt="illustration annonce">
-                            <h3>Positivité toxique</h3>
+                            <h3 class="carroussel__title">Positivité toxique</h3>
                         </a>
-                        <p>Le paradoxe du développement personel</p>
-                    </div>
+                        <p class="carroussel__text">Le paradoxe du développement personel</p>
+                    </li>
 
-                    <div class="carroussel__page">  
+                    <li class="carroussel__page">  
                         <a href="/fr/NouvellesTechnologies.html">
                             <img class="carroussel__pageimg" src="/public/illustrations/ill_NT.webp" alt="illustration robot">
-                            <h3>Les nouvelles technologies</h3>
+                            <h3 class="carroussel__title">Les nouvelles technologies</h3>
                         </a>
-                        <p>Une solution pour atteindre l’égalité ?</p>
-                    </div> 
-            </section>
+                        <p class="carroussel__text">Une solution pour atteindre l’égalité ?</p>
+                    </li> 
+                </ul>
         
         </main>
 
         <footer class="footer">
-        <div class="footer__part1">
+        <section class="footer__part1">
             <a class="footer__link1" href="/fr/APropos.html">
                 <littlebutton>À propos</littlebutton>
-            </a>
+            </a>    
             <a class="footer__link1" href="/fr/Contact.html">
                 <littlebutton>Contact</littlebutton>
-            </a>
-            <a class="footer__link1" href="/fr/Glossaire.html">
+            </a>    
+                <a class="footer__link1" href="/fr/Glossaire.html">
                 <littlebutton>Glossaire</littlebutton>
-            </a>
+            </a>    
             <a class="footer__link1" href="/fr/AutresProjets.html">
                 <littlebutton>Autres Projets</littlebutton>
-            </a>
-        </div>
-        <div class="footer__part2">
-            <a href="chloe.rosetta@edu.univ-fcomte.fr">
-                <img src="/public/icones/Envelope.webp" alt="mailto">
-            </a>
-            <p>Chloé ROSETTA MMI 1 C1</p>
-            <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=0CAMQw7AJahcKEwjYrI7MvrD7AhUAAAAAHQAAAAAQAw&url=http%3A%2F%2Fmmimontbeliard.com%2F&psig=AOvVaw3MQthNk2oPGLkEewuLg927&ust=1668612095689961">MMI de Montbéliard</a></p>
-            <img src="/public/icones/logoMMInoir.webp" alt="logo du département MMI">
-        </div>
+            </a>    
+        </section>
+        <hr id="footer__hr">
+        <section class="footer__part2">
+            <a href="mailto:chloe.rosetta@edu.univ-fcomte.fr"><img class="footer__mailto" src="/public/icones/Envelope.webp" alt="mailto"></a>
+            <p>Chloé ROSETTA MMI1 C1</p>
+        </section>
+        
+        <section class="footer__part3">
+            <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=0CAMQw7AJahcKEwjYrI7MvrD7AhUAAAAAHQAAAAAQAw&url=http%3A%2F%2Fmmimontbeliard.com%2F&psig=AOvVaw3MQthNk2oPGLkEewuLg927&ust=1668612095689961" class="footer__link2">MMI de Montbéliard</a></p>
+            <img class="footer__logommi" src="/public/icones/logoMMInoir.webp" alt="logo du département MMI">
+        </section>
         </footer>
     </body>
 </html>
