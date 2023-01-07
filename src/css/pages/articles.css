@@ -140,6 +140,11 @@
     padding-left: 22px;
 }
 
+blockquote{
+    color: var(--white);
+    text-transform: uppercase;
+    padding-top: 10%;
+}
 /* Positivité Toxique */
 
 
