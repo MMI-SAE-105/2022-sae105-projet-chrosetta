@@ -54,7 +54,7 @@ p {
     line-height: auto;
 }
 
-littlebutton{
+.littlebutton{
     font-family: var(--font-basic);
     font-size: var(--little-button);
     letter-spacing: 10%;
