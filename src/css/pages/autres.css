@@ -65,15 +65,23 @@
     padding: inherit;
 }
 
+/* Autres projets*/
 .projets{
-    display: block;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .contact {
     display: flex;
+    align-items: center;
 }
 
 .contact__initial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 100%;
@@ -81,8 +89,17 @@
     text-align: center;
 }
 
-.contact__nom {
-
+.contact__initial h3{
+    margin: 0;
 }
 
+.contact__nom h4,.contact__nom p, .contact__nom a{
+    margin: initial;
+    padding: initial; 
+    padding-left: 10%;
+}
+
+.contact__nom{
+    width: 100%;
+}
 
