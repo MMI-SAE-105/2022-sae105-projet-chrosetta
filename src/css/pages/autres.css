@@ -103,6 +103,18 @@
     width: 100%;
 }
 
+.contact__nom a{
+    color: var(--main);
+}
+
+.contact__nom a:hover{
+    color: var(--darker);
+}
+
+.contact__nom a:active{
+    color: var(--yellow);
+}
+
 /*Contact*/
 form{
     display: flex;
