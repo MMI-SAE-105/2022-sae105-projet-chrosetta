@@ -3,9 +3,6 @@
     background-color: var(--main);
 }
 
-.article__landing{
-    display: block;
-}
 
 .landing__img-couverture{
     position: relative;
@@ -21,7 +18,7 @@
     bottom: 7rem;
     background-color: var(--main);
     color: var(--white);
-    padding: 20% 10%;
+    padding: 10% 10%;
     right: 0;
     left: 0;
     border-top-left-radius: 15%;
