@@ -43,6 +43,14 @@
     margin-right: 22px;
 }
 
+.article__separateur{
+    display: block;
+    height: 0.5px;
+    width: 60%;
+    background-color: var(--white);
+    margin: 30% auto;
+}
+
 .img{
     width: 335px;
     position: relative;
