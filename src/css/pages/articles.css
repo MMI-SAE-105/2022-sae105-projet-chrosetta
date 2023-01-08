@@ -95,9 +95,7 @@ figcaption{
     border-radius: 10px;
     border: 0;
     padding: 6px 30px;
-    box-shadow:0px 5px 10px var(--darker)
-}
-.suivant__bouton p{
+    box-shadow:0px 5px 10px var(--darker);
     color: var(--darker);
     text-decoration: underline;
     font-family: var(--font-basic);
