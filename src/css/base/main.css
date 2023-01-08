@@ -36,7 +36,6 @@ h4{
 p {
     font-family: var(--font-basic);
     font-size: var(--body);
-    letter-spacing: 0%;
     line-height: auto;
 }
 
@@ -60,14 +59,6 @@ p {
     letter-spacing: 10%;
     line-height: auto;
     text-transform: uppercase;
-}
-
-hr {
-    width: 40%;
-    justify-content: center;
-    height: 0.5px;
-    background-color: var(--main);
-    border: 0;
 }
 
 h3:hover{
