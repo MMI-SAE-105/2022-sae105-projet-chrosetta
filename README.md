@@ -1,7 +1,7 @@
 - NOM : Rosetta
 - PRÉNOM : Chloé
-- URL du site :
-- URL FIGMA :
+- URL du site : bearthisinmind.chloerosetta.fr
+- URL FIGMA : https://www.figma.com/file/JxY8bQZ1TpMBWcDprmnsLs/ProjetS1_Maquette_Chlo%C3%A9-Rosetta_MMI1C1?node-id=0%3A1&t=th0NA5od9Myd6Vvy-1 
 
 # Structure de départ pour le projet individuel.
 
