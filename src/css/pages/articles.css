@@ -29,7 +29,7 @@
 
 .landing__chevrondown{
     position: absolute;
-    bottom: 30px;
+    top: 45rem;
     left: 50%;
     transform: translateX(-50%);
 }
